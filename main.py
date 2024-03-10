@@ -9,3 +9,7 @@ def home():
 @app.get("/about")
 def about():
     return "This is about page"
+
+@app.get("/contact")
+def contact():
+    return "This is contact us page"
